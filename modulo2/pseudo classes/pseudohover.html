@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        
+        div:hover{
+            color: rgb(5, 22, 99);
+            
+            
+        }
+        div > p{
+            display: none;
+        }
+        div:hover >p{
+            display: block;
+            width: 300px;
+            background-color: darkolivegreen;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div> 
+        Passe o rato aqui.
+        <p>ganhou 1 milhão de likes.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Assista seu Anime Favorito</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        
+   
+          @keyframes tipsy {
+  
+    transform{ translateX:(-50%) translateY(-50%) rotate(0deg);
+    }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #ebebf1;
+}
+
+div {
+  color: #0ca58b;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+div:before,
+div:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid rgb(136, 255, 0);
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+div:before {
+  border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+div:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+  box-shadow: 25px 25px 25px rgba(16, 16, 99, 0.8);
+}
+          
+    </style>
+</head>
+<body>
+    <div><a class="text1"href="" target="_blank">Animes Free</a></div>
+    <table>
+        
+          <tr>
+              <td><a href="video01.html"><img src="imagens/Thumb-cdz.png" alt="cavaleiro do zodiaco" width="300px"></td></a>
+              <td><a href="video02.html"><img src="imagens/thumb-dbz.png"alt ="dragon ball" width="300px"></a></td>
+          </tr>
+          <tr>
+              <td><a href="video03.html"><img src="imagens/Thumb-naruto.png" alt="naruto" width="300px"></a></td>
+              <td><a href="video04.html"><img src="imagens/Thumb-yuyu.png" alt="yu yu hakusho" width="300px"></a></td>
+          </tr>
+      </table>
+
+</body>
+</html>
