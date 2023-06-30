@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Imagens</title>
+    <style>
+        body{
+            background-image: url("imagens/wallpaper005.jpg");
+        }
+        div.quadrado {
+            display: inline-block;
+            border: 0.5px solid darkblue;
+            border-radius: 5px;
+            width: 250px;
+            height: 250px;
+            padding-right: 30px;
+        }
+        div#q1{
+            background-color: aqua;
+        }
+        div#q2{
+            background-image: linear-gradient(to right, rgba(255, 166, 0, 0.719),rgba(0, 0, 0, 0.623));
+        }
+        div#q3{
+            background-image: url("imagens/pattern002.png");
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
 </body>
 </html>
