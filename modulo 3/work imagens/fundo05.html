@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de alinhamento</title>
+    <style>
+        #container{
+            background-image: url(imagens/target001.png);
+            padding: 10px;
+            height: 96vh;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-color: darkcyan;
+            position: relative;
+        }
+        #conteudo{
+            position: absolute;
+            background-size: 100% 100%;
+            background-color: dimgray;
+            background-image: url(imagens/target001.png);
+            height: 250px;
+            width: 500px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo"></article>
+    </section>
+</body>
+</html>
