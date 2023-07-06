@@ -11,6 +11,12 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            background-color: lightgrey;
+            color: black;
+            padding: 10px;
         }
         td, th{
             border: 1px solid black;
@@ -28,15 +34,24 @@
             color: white;
             text-align: right;
         }
+        tbody >tr:nth-child(2n){
+            background-color: lightgreen;
+        }
+        thead> tr >th{
+            position: sticky;
+            background-color: bisque;
+            top: -1px;
+        }
     </style>
 </head>
 <body>
     <h1>População de Pernambuco</h1>
     <table>
+        <caption>População do estado de Pernambuco por municípios</caption>
         <thead>
             <tr>
-                <th>Cidade</th>
-                <th>População</th>
+                <th scope="col">Cidade</th>
+                <th scope="col" style="width: 60px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -111,8 +126,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total da População</th>
-                <td class="esp"><strong>1 646 000</strong></td>
+                <th scope="row">Total da População</th>
+                <td class="esp" ><strong>1 646 000</strong></td>
             </tr>
         </tfoot>
     </table>
