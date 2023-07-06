@@ -16,6 +16,8 @@
 
 p{
     font-family: var(--font3);
+    font-size: 20px;
+    text-indent: 15px;
 }
 header{
     background-color: white;
@@ -61,7 +63,7 @@ section.imagem{
     background-attachment: fixed;
 }
 section.imagem > p{
-    background-color: rgba(184, 135, 11, 0.685);
+    background-color: rgba(243, 241, 235, 0.685);
     width: 500px;
     text-align: justify;
     border-radius: 10px;
@@ -72,9 +74,11 @@ section.imagem > p{
 }
 section#img01{
     background-image: url('../imagens/bitcoin.jpg');
+    background-position: left center;
 }
 section#img02{
-    background-image: url('../imagens/moeda.jpg');
+    background-image: url('../imagens/bitcoin.jpg');
+    background-position: center center;
     
 }
 footer{
