@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em html</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        table{
+            width: 600px;
+            height: 600px;
+            margin: auto; 
+            border-collapse: collapse;
+        }
+        td{
+            border: 2px solid black;
+            text-align: center;
+        }
+
+    td.campeao{
+        background-color: green;
+        color: white;
+        font-weight: bolder;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Table number ONE</h1>
+        <p>Os melhores estão marcados em verde!</p>
+    </header>
+    <table>
+        <tr>
+            <td class="campeao">Santa Cruz</td>
+            <td>Sport</td>
+            <td>Nautico</td>
+        </tr>
+        <tr>
+            <td>CRB</td>
+            <td class="campeao">CSA</td>
+            <td>Alagoinhas</td>
+        </tr>
+        <tr>
+            <td>Souza</td>
+            <td>Campinense</td>
+            <td class="campeao">Botafogo PB</td>
+        </tr>
+        <tr>
+            <td class="campeao">Bahia</td>
+            <td>Vitória</td>
+            <td>Itabaiana</td>
+        </tr>
+    </table>
+</body>
+</html>
