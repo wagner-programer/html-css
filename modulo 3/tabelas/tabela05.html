@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercitando tabelas</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid rgb(245, 4, 4);
+            text-align: center;
+            padding: 10px;
+            color: darkblue;
+        }
+        caption{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        th.especial{
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Melhores Filmes por pessoas TOP´s
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th class="especial" scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Maria souza</td>
+                <td>Sobrenatural</td>
+                <td>50 tons de Cinza</td>
+                <td>Marmaduke</td>
+            </tr>
+            <tr>
+                <td>Marcia Andrade</td>
+                <td>O Milagre da fé</td>
+                <td>Vingadores</td>
+                <td>Taxi</td>
+            </tr>
+            <tr>
+                <td>Tânia Mara</td>
+                <td>O segredo</td>
+                <td>A Múmia</td>
+                <td>Piratas do Caribe</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Wagner Oliveira</td>
+                <td>Piratas do Caribe</td>
+                <td>Avatar</td>
+                <td>Homem Formiga</td>
+            </tr>
+            <tr>
+                <td>Anthony Oliveira</td>
+                <td>Smurfs</td>
+                <td>Super Mario</td>
+                <td>Scooby Doo</td>
+            </tr>
+            <tr>
+                <td>Jorge Silva</td>
+                <td>Auto da Compadecida</td>
+                <td>Lampião</td>
+                <td>Homem de fé</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
