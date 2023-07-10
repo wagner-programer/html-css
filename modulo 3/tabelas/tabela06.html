@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de colunas</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid rgb(24, 23, 23);
+            text-align: center;
+            padding: 10px;
+            color: darkblue;
+        }
+        caption{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        col.cnome{
+            background-color: lightblue;
+        }
+        .cgroup{
+            background-color: lemonchiffon;
+        }
+        .cprof{
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgroup" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Joao Portinari</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Investidor</td>
+        </tr>
+        <tr>
+            <td>Maria Joaquina</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Manoela Stein</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>Teodoro Main</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Desenvolvedor Full Stack</td>
+        </tr>
+        <tr>
+            <td>Jessica Lima</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Caixa</td>
+        </tr>
+        <tr>
+            <td>Jorge Silva</td>
+            <td>M</td>
+            <td>50</td>
+            <td>Fotografo</td>
+        </tr>
+        <tr>
+            <td>Carla Sicupira</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Modelo</td>
+        </tr>
+    </table>
+</body>
+</html>
