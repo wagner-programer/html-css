@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        caption{
+            background-color: lightgrey;
+            color: black;
+            padding: 10px;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th{
+            background-color: bisque;
+            color: darkblue;
+        }
+        tbody >tr:nth-child(2n){
+            background-color: lightgreen;
+        }
+        thead> tr >th{
+            position: sticky;
+            background-color: lightslategray;
+            top: -1px;
+        }
+        div#container{
+            overflow-x: auto;
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas responsivas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae obcaecati deserunt reprehenderit, fugit laborum ullam similique odio. Dolor cum ut veniam sapiente blanditiis doloremque facilis dolores, quo quae quidem sint.</p>
+    <div id="container">
+        <table>
+                <caption>Quantidade de Produtos vendidos por Mês</caption>
+            <thead>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Agos</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tv 50</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>10</td>
+                    <td>20</td>
+                    <td>50</td>
+                    <td>5</td>
+                    <td>100</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>50</td>
+                    <td>120</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Máquina de lavar</td>
+                    <td>20</td>
+                    <td>50</td>
+                    <td>53</td>
+                    <td>60</td>
+                    <td>25</td>
+                    <td>100</td>
+                    <td>120</td>
+                    <td>200</td>
+                    <td>23</td>
+                    <td>500</td>
+                    <td>250</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>Notebook</td>
+                    <td>10</td>
+                    <td>25</td>
+                    <td>35</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>125</td>
+                    <td>100</td>
+                    <td>30</td>
+                    <td>45</td>
+                    <td>150</td>
+                    <td>36</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Cafeteira</td>
+                    <td>150</td>
+                    <td>100</td>
+                    <td>362</td>
+                    <td>200</td>
+                    <td>50</td>
+                    <td>800</td>
+                    <td>200</td>
+                    <td>150</td>
+                    <td>600</td>
+                    <td>650</td>
+                    <td>700</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>Smartfone 32GB</td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>300</td>
+                    <td>50</td>
+                    <td>30</td>
+                    <td>700</td>
+                    <td>600</td>
+                    <td>35</td>
+                    <td>80</td>
+                    <td>250</td>
+                    <td>120</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Mesa digital</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>70</td>
+                    <td>22</td>
+                    <td>18</td>
+                    <td>100</td>
+                    <td>150</td>
+                    <td>120</td>
+                    <td>200</td>
+                    <td>210</td>
+                </tr>
+                <tr>
+                    <td>Microondas</td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>35</td>
+                    <td>35</td>
+                    <td>35</td>
+                    <td>63</td>
+                    <td>63</td>
+                    <td>63</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Fone de Ouvido</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>500</td>
+                    <td>500</td>
+                    <td>650</td>
+                    <td>650</td>
+                </tr>
+                <tr>
+                    <td>Mouse Bluetooh</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>150</td>
+                    <td>150</td>
+                    <td>350</td>
+                    <td>350</td>
+                </tr>
+                <tr>
+                    <td>Pen drive 1T</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>500</td>
+                    <td>500</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>600</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>Impressora Epson</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>55</td>
+                    <td>55</td>
+                    <td>125</td>
+                    <td>125</td>
+                    <td>125</td>
+                    <td>65</td>
+                    <td>65</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Caixa de som bluetooh</td>
+                    <td>70</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>250</td>
+                    <td>250</td>
+                    <td>250</td>
+                    <td>300</td>
+                    <td>201</td>
+                    <td>201</td>
+                    <td>201</td>
+                    <td>201</td>
+                </tr>
+                <tr>
+                    <td>Smartwacth</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>200</td>
+                    <td>305</td>
+                    <td>305</td>
+                    <td>305</td>
+                    <td>202</td>
+                    <td>202</td>
+                    <td>306</td>
+                    <td>306</td>
+                    <td>306</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

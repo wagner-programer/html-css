@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+        body{
+            background-color: rgb(190, 190, 184);
+        }
+        a{
+            font-weight: bold;
+            font-size: 30px;
+            text-decoration: none;
+            color: rgb(6, 75, 75);
+            text-align: justify;
+        }
+        a:hover{
+            color: darkred;
+            text-decoration: wavy;
+        }
+        a:active{
+            color: #4f108a;
+        }
+        a::before{
+            content: '✔';
+            padding: 7px;
+        }
+        .especial{
+            background-color: rgb(228, 228, 10);
+            border-radius: 5px;
+        }
+        a::after{
+            text-decoration: none;
+        }
+        .especial::after{
+            background-color: rgb(194, 194, 78);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCkVnMlm37bdM7ZSRHt1NMRA" target="_blank">Meu canal</a></li>
+        <li><a href="https://www.linkedin.com/in/wagner-oliveira-41a45590/" target="_blank" class="especial">Linkedin</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+    </ul>
+</body>
+</html>
