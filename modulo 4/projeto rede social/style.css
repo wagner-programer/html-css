@@ -1,0 +1,6 @@
+@charset 'UTF-8';
+
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+}
