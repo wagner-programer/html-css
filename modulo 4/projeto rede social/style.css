@@ -16,7 +16,7 @@ body{
 main{
     height: 100vh;
     position: relative;
-    padding-bottom: 300px;
+    padding-bottom: 90px;
 }
 section#telefone{
     position: absolute;
@@ -25,7 +25,7 @@ section#telefone{
     transform:translate( -50%, -50%);
     padding-top: 80px;
     width: 311px;
-    height: 627px;
+    height: 600px;
     background: url(imagens/frame-iphone.png) no-repeat;
 }
 iframe#tela{
@@ -35,4 +35,9 @@ iframe#tela{
     width: 270px;
     height: 471px;
     background-size: cover;
+}
+section#redessociais img{
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px;
 }
