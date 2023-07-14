@@ -34,10 +34,21 @@ iframe#tela{
     left: 18px;
     width: 270px;
     height: 471px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+    box-sizing: border-box;
     background-size: cover;
 }
-section#redessociais img{
+section#rs img{
     border-radius: 50%;
     width: 50px;
     padding: 10px;
+    box-shadow: .5px .5px 1px rgba(0, 0, 0, 0.644);
+    box-sizing: border-box;
+}
+section#rs img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.699);
+    transform: translate(-2px -2px);
+    transform: translate(-5px -5px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
+    transition: transform 10s;
 }
