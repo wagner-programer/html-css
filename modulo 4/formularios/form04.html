@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form{
+            text-align: justify;
+            background-color: lightblue;
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+       form > p{
+            font-weight: bolder;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de usuário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required minlength="10" placeholder="Nome completo">
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required placeholder="email@email.com">
+            </p>
+            <p><label for="ifone">Telefone</label>
+            <input type="tel" name="fone" id="ifone" required pattern="^\(\d{2}\)\d{4,5}-d{4}$" placeholder="(xx)xxxx-xxxx"></p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar dados">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
