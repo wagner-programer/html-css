@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form{
+            text-align: justify;
+            background-color: #90ee90af;
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            font-weight: bolder;
+            padding-right: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Testes de formulários</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="Cor" id="cor" value="#90ee90" >
+        </p>
+        <p>
+            <label for="isas">Seu nível de satisfação:</label>
+            <input type="range" name="sas"   id="isas" value="5" min="1" max="10">
+        </p>
+        <p>
+            <label for="ifoto">Escolha sua foto:</label> <br>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar dados">
+        </p>
+    </form>
+</body>
+</html>
