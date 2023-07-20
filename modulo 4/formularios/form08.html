@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Output</title>
+</head>
+<body>
+    <h1>Teste formulário</h1>
+    <form method="get">
+        <p>
+            <label for="inum1">Digite um número:</label>
+            <input type="number" name="num1" id="inum1" min="0" max="10" required size="50"
+            oninput="imult.innerHTML = Number(inum1.value) * Number(inum2.value)">
+
+        </p>
+        <p>
+            <label for="inum2">Digite o segundo número:</label>
+            <input type="number" name="num2" id="inum2" min="0" max="10" required size="50"
+            oninput="imult.innerHTML = Number(inum1.value) * Number(inum2.value)">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar dados">
+        </p>
+        <p>
+            <label for="imult">A multiplicação é:</label>
+            <output id="imult">0</output>
+        </p>
+    </form>
+</body>
+</html>
