@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/*estilo para telas*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    
+}
