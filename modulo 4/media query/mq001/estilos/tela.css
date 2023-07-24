@@ -11,5 +11,64 @@ html{
 }
 
 header{
+    background-color: lightskyblue;
+}
+header> h1{
+    text-align: center;
+    color: rgb(27, 8, 196);
+    padding: 10px;
+}
+menu{
     
+    background-color: darkblue;
+}
+ul  a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+menu li{
+    display: inline-block;
+    font-weight: bolder;
+    padding: 5px;
+}
+li a:hover{
+    background-color: rgba(0, 255, 255, 0.418);
+    transition: 1s;
+    border-radius: 5px;
+    color: darkblue;
+}
+main article{
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+article h2,h3 {
+    padding: 10px;
+    text-align: center;
+}
+article p{
+    padding: 10px;
+}
+div#img > img{
+    width: 300px;
+    height: 407px;
+    padding: 5px;
+    align-items: center;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+}
+footer p{
+    padding: 10px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(240, 236, 236);
+}
+footer a:hover{
+    text-decoration: underline;
+    color: darkgrey;
 }
