@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*configuração para orientação paisagem - landscape*/
+
+
+html,body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    position: left bottom;
+}

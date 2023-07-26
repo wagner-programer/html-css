@@ -54,7 +54,7 @@ div#img > img{
     width: 300px;
     height: 407px;
     padding: 5px;
-    align-items: center;
+    margin: auto;
 }
 footer{
     background-color: darkblue;
