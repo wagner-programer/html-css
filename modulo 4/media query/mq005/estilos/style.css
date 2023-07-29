@@ -1,4 +1,105 @@
 @charset "UTF-8";
 *{
-    background-color: lightgreen;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+#burguer{
+    background-color: rgb(104, 102, 102);
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#burguer:hover{
+    background-color: rgb(241, 248, 241);
+    color: black;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    padding: 10px;
+    background-color: darkgray;
+}
+header h1{
+    padding: 10px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.555);
+    text-align: center;
+}
+ menu{
+    display: none;
+}
+menu >ul{
+    list-style-type: none;
+}
+menu li{
+    display: inline-block;
+    padding: 5px;
+}
+menu >ul >li>a{
+    text-decoration: none;
+    background-color: darkgray;
+    color: rgb(3, 41, 3);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+menu>ul>li>a:hover{
+    background-color: white;
+    transition: 0.3s;
+    text-decoration: wavy;
+    color: darkgreen;
+}
+main{
+    width: 90vw;
+    margin-top: 10px;
+    background-color: rgba(161, 155, 155, 0.575);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+article{
+    text-align: justify;
+}
+article h1{
+    margin-top: 10px;
+    text-align: center;
+}
+article h3{
+    text-align: center;
+    padding: 10px;
+}
+article p{
+    padding: 10px;
+    text-indent: 20px;
+    text-align: justify;
+}
+article >ul>li{
+    list-style-type:initial;
+    list-style-position: inside;
+    padding: 5px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer >p{
+    text-align: center;
+    padding: 20px;
+}
+footer>p>strong>a{
+    text-decoration: none;
+    color: white;
+}
+footer>p>strong>:hover{
+   text-decoration: underline;
+   color: blue;
 }
