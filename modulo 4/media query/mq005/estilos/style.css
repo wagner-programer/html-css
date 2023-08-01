@@ -86,6 +86,7 @@ article img{
     height: 300px;
     margin: auto;
     display: block;
+    padding: 20px;
 }
 article >ul>li{
     list-style-type:initial;
